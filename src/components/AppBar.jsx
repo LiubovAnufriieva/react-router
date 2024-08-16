@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { useRef } from "react";
 import clsx from "clsx";
 import css from "./AppBar.module.css";
 
@@ -11,7 +12,7 @@ export const AppBar = () => {
     <header className={css.header}>
       <p className={css.logo}>
         <span role="img" aria-label="computer icon">
-          💻
+          💻 
         </span>
       </p>
       <nav className={css.nav}>
